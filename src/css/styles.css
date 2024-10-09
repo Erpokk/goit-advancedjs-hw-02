@@ -8,11 +8,29 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  font-size: 2rem;
+  display: block;
+}
+
+.label {
+  font-size: 1rem;
+  color: #555;
+  display: block;
+  margin-top: 5px;
+}
